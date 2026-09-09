@@ -330,6 +330,9 @@ strong {
 
 .portrait-role {
   color: var(--blue-dark);
+  font-size: 0.65rem;
+  letter-spacing: 0.01em;
+  text-transform: none;
 }
 
 .section {
