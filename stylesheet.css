@@ -311,16 +311,21 @@ strong {
 }
 
 .portrait-card figcaption {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  gap: 12px;
+  display: grid;
+  grid-template-columns: 1fr;
+  justify-items: start;
+  gap: 2px;
   padding: 15px 8px 5px;
   color: var(--ink-soft);
   font-size: 0.73rem;
   font-weight: 720;
   letter-spacing: 0.04em;
   text-transform: uppercase;
+}
+
+.portrait-card figcaption span {
+  display: block;
+  white-space: nowrap;
 }
 
 .portrait-role {
@@ -649,12 +654,6 @@ strong {
     font-size: clamp(3.8rem, 10vw, 5.6rem);
   }
 
-  .portrait-card figcaption {
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 2px;
-  }
-
   .credential-grid {
     grid-template-columns: 1fr;
   }
@@ -711,10 +710,6 @@ strong {
     width: min(78%, 300px);
     margin: 0 auto;
     transform: none;
-  }
-
-  .portrait-card figcaption {
-    flex-direction: row;
   }
 
   .eyebrow {
@@ -821,10 +816,6 @@ strong {
     flex-basis: 100%;
   }
 
-  .portrait-card figcaption {
-    align-items: flex-start;
-    flex-direction: column;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
