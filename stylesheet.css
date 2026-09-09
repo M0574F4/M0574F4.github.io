@@ -109,6 +109,47 @@ h2 {
   font-size: 32px;
 }
 
+.headline {
+  margin: 6px 0 18px;
+  color: #333;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.45;
+  text-align: center;
+}
+
+.headline span {
+  color: #666;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+@media (max-width: 600px) {
+  .intro-row {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+
+  .intro-copy,
+  .intro-photo {
+    display: block;
+    box-sizing: border-box;
+    width: 100% !important;
+    max-width: none !important;
+  }
+
+  .intro-photo {
+    width: 58% !important;
+    max-width: 220px !important;
+    padding: 24px 0 0 !important;
+  }
+
+  .name {
+    padding-top: 8px;
+  }
+}
+
 .one {
   width: 160px;
   height: 160px;
