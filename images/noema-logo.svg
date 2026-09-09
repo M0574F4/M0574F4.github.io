@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="8 8 80 80" role="img" aria-labelledby="title desc">
+  <title id="title">Noema logo</title>
+  <desc id="desc">The Noema Semantic Relay mark.</desc>
+  <defs>
+    <mask id="noema-logo-cutout" maskUnits="userSpaceOnUse" x="0" y="0" width="96" height="96">
+      <rect width="96" height="96" fill="#ffffff"/>
+      <path d="M21 39h24c5 0 9 4 9 9s-4 9-9 9H21v-9h24c1 0 2-1 2-2s-1-2-2-2H21z" fill="#000000"/>
+    </mask>
+  </defs>
+  <g transform="translate(2 -9.6) scale(1 1.2)">
+    <g mask="url(#noema-logo-cutout)">
+      <path d="M13 18h22c18 0 32 14 32 30S53 78 35 78H13V64h22c10 0 18-7 18-16s-8-16-18-16H13z" fill="#54c58f"/>
+      <path d="M39 26h14l30 22-30 22H39l24-22z" fill="#4bc4cc"/>
+    </g>
+    <path d="M9 41h10v14H9z" fill="#f08345"/>
+    <circle cx="19" cy="48" r="7" fill="#f08345"/>
+  </g>
+</svg>
