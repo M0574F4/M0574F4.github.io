@@ -1,2 +1,4 @@
 User-agent: *
 Disallow: /images/MostafaNaseri_2026.jpg
+Disallow: /CV_MNaser.pdf
+Disallow: /MostafaNaseriResume_mo.pdf
