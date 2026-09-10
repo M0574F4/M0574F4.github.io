@@ -1,0 +1,2 @@
+User-agent: *
+Disallow: /images/MostafaNaseri_2026.jpg
